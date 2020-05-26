@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/my_financial"
+        style="@style/TextView.Normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:src="@drawable/man"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/shape_rectangle_white_background"
+        android:orientation="vertical"
+        android:padding="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_john_doe"
+            style="@style/TextView.High.White"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/we_can_help_you"
+            style="@style/TextView.Normal.White"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_blog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_blogging"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:paddingStart="-40dp"
+                    android:paddingBottom="18dp"
+                    android:paddingTop="45dp"
+                    android:background="@drawable/shape_rectangle_white_top_background"
+                    android:text="@string/blog" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_other"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:paddingStart="-40dp"
+                    android:paddingBottom="18dp"
+                    android:paddingTop="45dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_rectangle_white_bottom_left_background"
+                    android:text="@string/other" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_user"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:paddingEnd="-40dp"
+                    android:paddingBottom="18dp"
+                    android:paddingTop="45dp"
+                    android:background="@drawable/shape_rectangle_white_top_right_background"
+                    android:text="@string/profile" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_logout"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:paddingEnd="-40dp"
+                    android:paddingBottom="18dp"
+                    android:paddingTop="45dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_rectangle_white_bottom_right_background"
+                    android:text="@string/logout" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

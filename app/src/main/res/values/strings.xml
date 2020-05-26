@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ADS 3</string>
+    <string name="understand">Understand</string>
+    <string name="next">Next</string>
+    <string name="pahami_kondisi_finansial_sekarang">Pahami kondisi finansial sekarang</string>
+    <string name="goal">Goal</string>
+    <string name="tentukan_tujuan_keuanganmu">Tentukan tujuan keuanganmu</string>
+    <string name="choose">Choose</string>
+    <string name="pilih_strategi_yang_kamu_inginkan">Pilih Strategi yang kamu inginkan</string>
+    <string name="sign_in">Sign In</string>
+    <string name="hello">Hello</string>
+    <string name="signin_to_continue">Signin to continue</string>
+    <string name="username">Username</string>
+    <string name="textview">TextView</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="my_financial">My Financial</string>
+    <string name="hello_john_doe">Hello, John Doe</string>
+    <string name="we_can_help_you">We can help you</string>
+    <string name="blog">Blog</string>
+    <string name="other">Other</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+</resources>
